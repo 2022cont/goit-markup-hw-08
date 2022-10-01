@@ -1,0 +1,42 @@
+/* First Partial  */
+:root {
+    /* значения Font */
+    --font-main: "Roboto";
+    --font-page-logo: "Raleway";
+
+    /* значения Color Text */
+    --color-text-base: #757575;
+    --color-text-dark: #212121;
+    --color-text-black: #000000;
+    --color-text-wite: #FFFFFF;
+
+    /* значения выделения при hover/focus */
+    --color-hightlight: #2196F3;
+
+    /* значения Border */
+    --color-border-light: #EEEEEE;
+
+    /* значения Background Color */
+    --color-bg-wite: #FFFFFF;
+    --color-bg-light: #F5F4FA;
+    --color-banner-bg: #2F303A;
+
+    /* значения Background button */
+    --color-btn-base: #2196F3;
+    --color-btn-light: #F5F4FA;
+    --color-btn-active: #188CE8;
+
+    /* значение Fill, Border и icon */
+    --color-icon-base: #AFB1B8;
+    --color-icon-wite: #FFFFFF;
+
+    /* значения для постоения сетки */
+    --indent: 15px;
+    --items-icon: 6;
+
+    /* значения тайминга */
+    --time-anim-slow: 250ms;
+
+    /* плавный переход */
+    --transit-effect: cubic-bezier(0.4, 0, 0.2, 1);
+}

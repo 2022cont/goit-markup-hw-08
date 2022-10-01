@@ -1,0 +1,62 @@
+ .baner {
+     @extend %section;
+
+     max-width: 100%;
+     //  height: 400px;
+     padding: 118px 0px;
+
+     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+         url(./images/bord_img_mob.jpg);
+
+     @media (min-device-pixel-ratio: 2),
+     (min-resolution: 192dpi),
+     (min-resolution: 2dppx) {
+         background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+             url(./images/bord_img@2х_mob.jpg);
+     }
+
+     @include respond-to('mobile') {
+         padding: 118px 40px;
+     }
+
+     @include respond-to('table') {
+         background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+             url(./images/bord_img_tabl.jpg);
+
+         @media (min-device-pixel-ratio: 2),
+         (min-resolution: 192dpi),
+         (min-resolution: 2dppx) {
+             background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+                 url(./images/bord_img@2x_tabl.jpg);
+         }
+
+         padding: 118px 160px;
+     }
+
+     @include respond-to('desktop') {
+         max-width: 1600px;
+         //  height: 600px;
+         background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+             url(./images/bord_img.jpg);
+
+         @media (min-device-pixel-ratio: 2),
+         (min-resolution: 192dpi),
+         (min-resolution: 2dppx) {
+             background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+                 url(./images/bord_img@2x.jpg);
+
+         }
+
+         padding: 200px 260px;
+     }
+
+
+     margin-left: auto;
+     margin-right: auto;
+
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+
+     text-align: center;
+ }

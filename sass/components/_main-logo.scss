@@ -1,0 +1,40 @@
+ .logo {
+     display: inline-flex;
+
+     font-family: var(--font-page-logo), sans-serif;
+     font-weight: 700;
+     font-size: 24px;
+     line-height: 1.17;
+
+     &--indent {
+         margin-right: 10px;
+
+       
+
+         @include respond-to('table') {
+             margin-right: 88px;
+         }
+
+         @include respond-to('desktop') {
+             margin-right: 93px;
+         }
+
+     }
+
+     &--dark {
+         color: var(--color-text-black);
+     }
+
+     &--wite {
+         color: var(--color-text-wite);
+     }
+
+     @include respond-to('desktop') {
+         font-size: 26px;
+         line-height: 1.19;
+     }
+ }
+
+ .logo-web {
+     color: var(--color-hightlight);
+ }

@@ -1,0 +1,44 @@
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+}
+
+input,
+textarea {
+    border: none;
+}
+
+.list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.link {
+    text-decoration: none;
+    font-style: normal;
+}
+
+.btn {
+    font-family: inherit;
+    padding: 0;
+
+    border: none;
+    border-style: hidden;
+}
+
+.comment-link {
+    text-decoration: none;
+}
+
+.check-input {
+    margin: 0;
+}

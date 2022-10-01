@@ -1,0 +1,19 @@
+.subtitle {
+    font-weight: 700;
+    font-size: 14px;
+
+    &--darck {
+        color: var(--color-text-dark);
+
+        text-transform: uppercase;
+
+        @media screen and(max-width: 767px) {
+            text-align: center;
+        }
+    }
+
+    &--light {
+        color: var(--color-text-wite);
+        text-transform: uppercase;
+    }
+}

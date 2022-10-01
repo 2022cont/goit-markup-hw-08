@@ -1,0 +1,19 @@
+/*Second Partial*/
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    color: var(--color-text-base);
+
+    font-family: var(--font-main), sans-serif;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+}

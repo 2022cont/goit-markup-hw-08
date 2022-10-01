@@ -1,0 +1,20 @@
+$breakpoints: (
+    'mobile': (min-width: 480px),
+    'table': (min-width: 768px),
+    'desktop': (min-width: 1200px)) !default;
+
+@mixin respond-to($breakpoint) {
+
+    @if map-has-key($breakpoints, $breakpoint) {
+
+        @media #{inspect(map-get($breakpoints, $breakpoint))} {
+            @content;
+        }
+    }
+}
+
+@mixin grid-marg {
+
+    margin: calc(var(--indent) / 2);
+
+}

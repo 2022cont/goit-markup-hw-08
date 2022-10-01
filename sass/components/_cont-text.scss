@@ -1,0 +1,20 @@
+.cont-text {
+    fill: currentColor;
+    color: var(--color-text-base);
+    font-style: normal;
+    line-height: 1.7;
+
+    transition-property: color;
+    transition-duration: var(--time-anim-slow);
+    transition-timing-function: var(--transit-effect);
+
+    &--light {
+        color: var(--color-text-wite);
+    }
+
+    &:hover,
+    &:focus {
+        fill: currentColor;
+        color: var(--color-hightlight);
+    }
+}

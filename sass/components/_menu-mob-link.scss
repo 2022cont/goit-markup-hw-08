@@ -1,0 +1,26 @@
+ .menu-mob-link {
+    font-weight: 500;
+    color: var(--color-text-dark);
+    text-align: center;
+
+
+
+    &--hight {
+       font-size: 40px;
+       line-height: 1.18;
+    }
+
+    &--small {
+       font-size: 12px;
+
+       @media screen and (min-width:480px) {
+          font-size: 18px;
+          line-height: 1.22;
+
+       }
+
+       text-align: center;
+       color: var(--color-hightlight);
+
+    }
+ }
